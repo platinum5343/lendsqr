@@ -1,0 +1,30 @@
+.union{
+    margin: 3rem;
+    display: flex;
+}
+.union img{
+    margin-top: 1.5rem;
+    width: 24.75px;
+    height: 25px;
+    margin-right: 4px;
+}
+.union .h3{
+    background: #213F7D;
+    font-size: 20px;
+    font-weight: 200;
+}
+.pablo img{
+    width: 600px;
+    height: 337px;
+}
+
+@media screen and (max-width: 166px)
+{
+ .pablo img{
+    display: none;
+ }
+ .union{
+    display: none;
+ }
+}
+    
